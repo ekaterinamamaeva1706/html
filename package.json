@@ -1,0 +1,34 @@
+{
+  "name": "l1-basic-functions-v1",
+  "version": "1.0.0",
+  "description": "1 итоговый проект в Хекслет колледж",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest --colors"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "simple-git-hooks": {
+    "pre-push": "npx eslint ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.46.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-markdown": "^3.0.1",
+    "jest-environment-jsdom": "^29.7.0",
+    "npm-check-updates": "^16.10.12",
+    "simple-git-hooks": "^2.8.1"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@testing-library/dom": "*",
+    "@testing-library/jest-dom": "*",
+    "@testing-library/user-event": "*", 
+    "jest": "^29.7.0"
+  }
+}
